@@ -1,19 +1,14 @@
-探索空竹的奇妙世界
+# Creative Theme for Jekyll
 
-什么是空竹？
-空竹，又称扯铃，是中国传统的民间玩具，已有上千年的历史。它由两个轮盘和一个中轴组成，通过绳子的拉扯和身体的协调动作，空竹可以在空中旋转、飞舞，发出独特的嗡嗡声。空竹不仅是一种娱乐工具，更是一项融合了技巧、艺术和文化的运动。
+A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
-空竹的历史与文化
-空竹起源于中国，最早可追溯到三国时期。它曾是宫廷贵族的娱乐项目，后来逐渐流传到民间，成为大众喜爱的玩具。空竹不仅在中国广受欢迎，还传播到世界各地，成为国际友人了解中国文化的一扇窗口。
+Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
+The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
 
-空竹的玩法多样，从简单的旋转到高难度的花式技巧，展现了无穷的创造力和艺术魅力。它不仅是孩子们的游戏，也是成年人锻炼身体、放松心情的好方式。
+See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
-为什么选择空竹？
-锻炼身体：玩空竹可以锻炼手眼协调能力、平衡感和反应速度。
+## To use the Creative Theme template in your project
 
-传承文化：空竹是中国传统文化的重要组成部分，学习空竹是对历史的致敬。
+- Start by adding your info in `_config.yml`
+- In `_layouts/front.html` reorder or remove section as you prefer.
 
-趣味无穷：无论是初学者还是高手，空竹都能带来无尽的乐趣和挑战。
-
-加入我们，一起玩转空竹！
-无论你是空竹爱好者，还是初次接触的新手，这里都有适合你的资源和教程。让我们一起探索空竹的奇妙世界，感受传统与现代的完美结合！

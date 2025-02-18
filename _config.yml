@@ -4,9 +4,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, se.g. /blog/
 url: "" # the base hostname & protocol for your site
 
+douyin_username: 竹空空
 weibo_username: 空竹？？
-xiaohongshu_username: 空竹？？
-github_username: TATomorin
+xiaohongshu_username: 竹空空
+wechat_public_account: 空竹韵动
 
 # Build settings
 markdown: 
