@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>守艺 - 非遗文化传承</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- 顶部图片展示 -->
+    <div class="header">
+        <img src="../../img/header.png" alt="顶部图片">
+    </div>
+
+    <!-- 主体内容区域 -->
+    <div class="content">
+        <!-- 页面左侧 -->
+        <div class="left">
+            <!-- 左侧搜索栏 -->
+            <div class="search-container">
+                <!-- <div class="searchbar"> -->
+                    <input type="text" class="search-input" placeholder="请输入搜索内容">
+                    <!-- <p>请输入搜索内容</p> -->
+                <!-- </div> -->
+                <div class="search-bottom">
+                    <p>搜索</p>
+                </div>
+            </div>
+            <!-- 左侧公告栏 -->
+            <div class="announcements-container">
+                <div class="announcements">
+                    <div class="verticalline"></div>
+                    <h1>首页</h1>
+                        <ul>
+                            <li><a href="../main/index.html?type=ichproject">非遗项目</a></li>
+                            <li><a href="../main/index.html?type=activities">活动一览</a></li>
+                            <li><a href="../main/index.html?type=ichclass">非遗课程</a></li>
+                            <li><a href="../main/index.html?type=aboutus">关于我们</a></li>
+                            <li><a href="../main/index.html?type=feedback">意见与反馈</a></li>
+                        </ul>
+                </div>
+                <div class="announcements">
+                    <div class="verticalline"></div>
+                    <h1>通知公告</h1>
+                    <ul>
+                        <!-- 动态生成的公告列表将插入到这里 -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 页面右侧 -->
+        <div class="right">
+            <!-- 右侧分类栏和内容区域 -->
+            <div>
+                <div id="categories" class="categories">
+                    <ul>
+                        <a id="content1" class="homepagebutton" data-content="content1" href="../../index.html">首页</a>
+                        <a id="content2" class="categoriesbutton" data-content="content2" href="../main/index.html?type=ichproject">非遗项目</a>
+                        <a id="content3" class="categoriesbutton" data-content="content3" href="../main/index.html?type=activities">活动一览</a>
+                        <a id="content4" class="categoriesbutton" data-content="content4" href="../main/index.html?type=ichclass">非遗课程</a>
+                        <a id="content5" class="categoriesbutton" data-content="content5" href="../main/index.html?type=aboutus">关于我们</a>
+                        <a id="content6" class="categoriesbutton" data-content="content6" href="../main/index.html?type=feedback">意见与反馈</a>
+                    </ul>
+                </div>
+                <div class="category-content"> <!-- 动态加载该内容--> </div>
+
+    <!-- 引入JavaScript文件 -->
+    <script src="script.js"></script>
+</body>
+</html>

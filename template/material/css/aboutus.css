@@ -1,0 +1,231 @@
+body{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 顶部框架 */
+.header{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* 顶部图片 */
+.header img{
+    width: 88%;
+    height: 100%;
+    margin: 3% 7% 1%;
+}
+
+/* 主题框架 */
+.content{
+    display: flex;
+    margin: 1% 5% 5%;
+    height: 100%;
+}
+
+/* 页面左侧 */
+.left{
+    margin-top: 1%;
+    width: 25%;
+}
+
+/* 左侧搜索栏框架 */
+.search-container{
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+
+/* 左侧搜索栏框架 */
+.search-container{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* 搜索栏 */
+.search-input{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    width: 60%;
+    height: 43px;
+    padding-left: 4%;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* 搜索按钮 */
+.search-bottom {
+    cursor: pointer;
+    display: flex; /* 使用 flex 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    width: 25%;
+    height: 38px;
+    margin-left: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* 搜索按钮内字符 */
+.search-bottom p {
+    font-weight: bolder;
+    font-size: 19px;
+    margin: 0; /* 移除默认的外边距 */
+}
+
+/* 左侧公告栏框架 */
+.announcements-container {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column; /* 设置为垂直方向排列 */
+    max-width: 100%; /* 确保容器不超过父容器的宽度 */
+}
+
+
+/* 公告栏 */
+.announcements {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #f9f5ef;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 5%; /* 这个样式会让每个公告板之间有间距 */
+}
+
+/* 公告栏内字符缩进 */
+.announcements h1{
+    margin-left: 18%;
+}
+
+.announcements h2{
+    margin-top: 2%;
+}
+
+.announcements ul{
+    margin-top: 10%;
+}
+
+.announcements li{
+    cursor: pointer;
+    margin-bottom: 10%;
+    transition: background-color 0.3s;
+}
+
+.announcements a{
+    color: black;
+}
+
+.announcements li:hover {
+    border-radius: 10px;
+    background-color: #3535352a;
+}
+
+/* 左侧小圆点 */
+ul li::marker{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}
+
+
+/* 左侧公告栏竖着的红色小横条 */
+.verticalline{
+    margin-top: 7%;
+    margin-left: 8%;
+    float: left;
+    height: 45px;
+    width: 7px;
+    background-color: #ff5757;
+}
+
+/* 右侧样式 */
+.right {
+    margin-left: 4%;
+    width: 75%;
+}
+
+.categories {
+    display: flex;
+    background-color: #ff5757;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.categories ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.homepagebutton, .categoriesbutton {
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.categoriesbutton.active {
+    color: black;
+    background-color: white;
+}
+
+.categoriesbutton:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 右侧内容栏 */
+.category-content{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 内容栏中的标题部分 */
+.content-item{
+    display: flex;
+    padding: 4%;
+    border-style: solid;
+    border-color: #e0e0df;
+    align-items: center;
+    /* cursor: pointer;
+    transition: all 0.3s ease; */
+}
+
+/* 交互效果 */
+/* .content-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+} */
+
+.category-content image{
+    margin-left: auto;
+}
+
+.category-content img{
+    background-color: rgb(255, 127, 127);
+    height: 115px;
+    width: 125px;
+}
+
+.simple-content{
+    margin-left: 3%;
+    flex-direction: column;
+}
+
+.simple-content p{
+    color: #5f5d5d;
+}
+

@@ -1,3 +1,42 @@
----
-layout: front
----
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>守艺 - 非遗文化传承</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">守艺</h1>
+    </header>
+
+    <div class="container">
+        <a href="/template/main/index.html?type=ichproject" class="module-card" id="projects" target="_blank">
+            <h2>非遗项目</h2>
+            <p>展示传统手工艺项目...</p >
+        </a >
+
+        <a href="/template/main/index.html?type=ichclass" class="module-card" id="courses" target="_blank">
+            <h2>非遗课程</h2>
+            <p>传统技艺教学课程...</p >
+        </a >
+
+        <a href="/template/main/index.html?type=aboutus" class="module-card" id="about" target="_blank">
+            <h2>关于我们</h2>
+            <p>文化传承机构介绍...</p >
+        </a >
+
+        <section class="module-card" id="feedback">
+            <h2>意见反馈</h2>
+            <form>
+                <textarea placeholder="请输入您的宝贵意见"></textarea>
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </div>
+    
+    <!-- 引入JavaScript文件 -->
+    <script src="script.js"></script>
+</body>
+</html>

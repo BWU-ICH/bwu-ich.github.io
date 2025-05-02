@@ -1,0 +1,113 @@
+/* / 背景图设置  */
+body {
+    background: 
+        /* 可调整透明度 */
+        linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
+        /* 在此插入背景图片  */
+        url('/img/background.png') 
+        center/cover fixed;
+    min-height: 100vh;
+    overflow-y: hidden; /* 禁用滚动条 */
+}
+
+/* 去除所有下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 标题布局  */
+header {
+    position: relative;
+    padding: 2rem 0 1rem 4rem; /* 上右下左 */
+    margin-left: 10%;
+    transform: translateY(30%); /* 标题垂直位置 */
+}
+
+.site-title {
+    font-size: 2.5rem;
+    color: #332414;
+    letter-spacing: 4px;
+}
+
+/* 内容模块  */
+.container {
+    max-width: 1200px;
+    margin: -10vh auto 0; /* 关键：整体上移 */
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 85vh; /* 控制可视区域高度 */
+    overflow-y: auto; /* 允许容器内滚动 */
+}
+
+.module-card {
+    border: 1px solid #e0d5c5;
+    background: rgba(255,255,255,0.9);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* ================= 响应式设计 ================= */
+@media (max-width: 768px) {
+    body {
+        overflow-y: auto; /* 移动端恢复滚动 */
+    }
+
+    header {
+        margin-left: 5%;
+        padding: 1rem;
+        transform: none;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        margin: 1rem auto;
+        align-items: center;
+    }
+
+    .module-card {
+        width: 95%;
+        margin: 0.5rem 0;
+    }
+}
+
+/* 交互效果 */
+.module-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 反馈表单  */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+textarea {
+    padding: 1rem;
+    height: 100px;
+    border: 1px solid #ddd;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background: #584b3d;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.9;
+}
