@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>守艺 - 非遗文化传承</title>
+    <script>
+        // 检测是否为移动设备
+        if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            alert("本页面暂不支持移动端访问，请使用桌面设备访问。");
+            document.body.innerHTML = ""; // 清空页面内容
+        }
+    </script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -18,10 +25,7 @@
         <div class="left">
             <!-- 左侧搜索栏 -->
             <div class="search-container">
-                <!-- <div class="searchbar"> -->
-                    <input type="text" class="search-input" placeholder="请输入搜索内容">
-                    <!-- <p>请输入搜索内容</p> -->
-                <!-- </div> -->
+                <input type="text" class="search-input" placeholder="请输入搜索内容">
                 <div class="search-bottom">
                     <p>搜索</p>
                 </div>
@@ -50,7 +54,6 @@
         </div>
         <!-- 页面右侧 -->
         <div class="right">
-            <!-- 右侧分类栏和内容区域 -->
             <div>
                 <div id="categories" class="categories">
                     <ul>
