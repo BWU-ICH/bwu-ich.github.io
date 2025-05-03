@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>守艺 - 非遗文化传承</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        // 检测是否为移动设备
+        if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            alert("本页面暂不支持移动端访问，请使用桌面设备访问。");
+            document.body.innerHTML = ""; // 清空页面内容
+        }
+    </script>
     <script src="script.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
