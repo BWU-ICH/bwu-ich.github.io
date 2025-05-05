@@ -258,3 +258,30 @@ ul li::marker{
     color: #5f5d5d;
 }
 
+/* 表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse; /* 合并边框 */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+table th, table td {
+    border: 1px solid #ddd; /* 添加边框 */
+    padding: 8px; /* 单元格内边距 */
+}
+
+table th {
+    background-color: #f4f4f4; /* 表头背景色 */
+    font-weight: bold; /* 加粗表头文字 */
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* 偶数行背景色 */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* 鼠标悬停行的背景色 */
+}
+
